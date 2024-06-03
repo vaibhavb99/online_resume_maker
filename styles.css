@@ -1,0 +1,329 @@
+:root {
+    --clr-blue: #1A91F0;
+    --clr-white: #fff;
+    --clr-dark: #1e2532;
+    --clr-grey: #656e83;
+    --font-poppins: 'Poppins', sans-serif;
+    --transition: all 300ms ease-in-out;
+}
+
+body {
+    font-family: var(--font-poppins);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-dark);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-blue);
+    padding: 10px 20px;
+}
+
+.college_name {
+    font-size: 30px;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.navbar-logo {
+    height: 220px;
+}
+
+.navbar-text {
+    flex-grow: 1;
+    text-align: center;
+    color: var(--clr-white);
+}
+
+.navbar-button {
+    background-color: var(--clr-white);
+    color: var(--clr-blue);
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    transition: var(--transition);
+    height: 30px;
+}
+
+.navbar-button:hover {
+    background-color: var(--clr-grey);
+    color: var(--clr-white);
+}
+
+.main-section {
+    margin: 3%;
+    text-align: center;
+    padding: 20px;
+    background-image: url(assets/images/abcf.jpg);
+    background-size: cover;
+}
+
+.main-section p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-button {
+    display: inline-block;
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.main-button:hover {
+    background-color: var(--clr-grey);
+    color: var(--clr-white);
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.big-button {
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    padding: 20px;
+    text-decoration: none;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.big-button:hover {
+    background-color: var(--clr-grey);
+    color: var(--clr-white);
+}
+
+.footer {
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo {
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.social-links {
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: var(--clr-white);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.contact-link {
+    display: block;
+    color: var(--clr-white);
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+
+
+/* resumetips page code */
+
+.resumbody {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resumheader {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.resumheader h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.resummain {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resumtips h2 {
+    color: #35424a;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.resumtips ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.resumtips ul li {
+    margin-bottom: 10px;
+}
+
+#tipsfooter {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.containerofbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#button_ {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* itjobstips page code */
+
+.itpage {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.itheader {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ith1 {
+    margin: 0;
+}
+
+.itmain {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ittips {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ittips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ittips li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.ittips li:last-child {
+    border-bottom: none;
+}
+
+.itfooter {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* lifetips page code */
+
+.lifebody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.lifeheader {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.lifeh1 {
+    margin: 0;
+}
+
+.lifemain {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lifetips {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lifetips h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.lifetips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lifetips li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.lifetips li:last-child {
+    border-bottom: none;
+}
+
+.lifefooter {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
